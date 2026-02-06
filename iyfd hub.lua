@@ -723,7 +723,7 @@ core.MiscBtn.MouseButton1Click:Connect(function()
 	core.Frame3Visible = false
 	core.Frame6.Visible = false
 	core.Frame5.Visible = false
-	core.Home.Visible = false
+	core.Frame2.Visible = false
 end)
 
 core.CreditsBtn.MouseButton1Click:Connect(function()
@@ -732,7 +732,7 @@ core.CreditsBtn.MouseButton1Click:Connect(function()
 	core.Frame3Visible = true
 	core.Frame6.Visible = false
 	core.Frame5.Visible = false
-	core.Home.Visible = false
+	core.Frame2.Visible = false
 end)
 
 core.MapsBtn.MouseButton1Click:Connect(function()
@@ -741,7 +741,7 @@ core.MapsBtn.MouseButton1Click:Connect(function()
 	core.Frame3Visible = false
 	core.Frame6.Visible = true
 	core.Frame5.Visible = false
-	core.Home.Visible = false
+	core.Frame2.Visible = false
 end)
 
 core.MorphBtn.MouseButton1Click:Connect(function()
@@ -750,7 +750,7 @@ core.MorphBtn.MouseButton1Click:Connect(function()
 	core.Frame3Visible = false
 	core.Frame6.Visible = false
 	core.Frame5.Visible = true
-	core.Home.Visible = false
+	core.Frame2.Visible = false
 end)
 
 core.ToolsBtn.MouseButton1Click:Connect(function()
@@ -759,7 +759,7 @@ core.ToolsBtn.MouseButton1Click:Connect(function()
 	core.Frame3Visible = false
 	core.Frame6.Visible = false
 	core.Frame5.Visible = false
-	core.Home.Visible = false
+	core.Frame2.Visible = false
 end)
 
 Frame4.RX6.MouseButton1Click:Connect(function()
