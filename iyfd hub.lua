@@ -713,11 +713,11 @@ local morph = core.Morph
 local misc = core.Misc
 local maps = core.Maps
 
-core.Close.MouseButton1Click:Connect(function()
+core.Close.MouseButton1Click:(function()
 	core.Parent:Destroy()
 end)
 
-core.MiscBtn.MouseButton1Click:Connect(function()
+core.MiscBtn.MouseButton1Click:connect(function()
 	core.Frame4.Visible = true
 	core.Frame7.Visible = false
 	core.Frame3Visible = false
@@ -726,7 +726,7 @@ core.MiscBtn.MouseButton1Click:Connect(function()
 	core.Frame2.Visible = false
 end)
 
-core.CreditsBtn.MouseButton1Click:Connect(function()
+core.CreditsBtn.MouseButton1Click:connect(function()
 	core.Frame4.Visible = false
 	core.Frame7.Visible = false
 	core.Frame3Visible = true
@@ -735,7 +735,7 @@ core.CreditsBtn.MouseButton1Click:Connect(function()
 	core.Frame2.Visible = false
 end)
 
-core.MapsBtn.MouseButton1Click:Connect(function()
+core.MapsBtn.MouseButton1Click:connect(function()
 	core.Frame4.Visible = false
 	core.Frame7.Visible = false
 	core.Frame3Visible = false
@@ -744,7 +744,7 @@ core.MapsBtn.MouseButton1Click:Connect(function()
 	core.Frame2.Visible = false
 end)
 
-core.MorphBtn.MouseButton1Click:Connect(function()
+core.MorphBtn.MouseButton1Click:connect(function()
 	core.Frame4.Visible = false
 	core.Frame7.Visible = false
 	core.Frame3Visible = false
@@ -753,7 +753,7 @@ core.MorphBtn.MouseButton1Click:Connect(function()
 	core.Frame2.Visible = false
 end)
 
-core.ToolsBtn.MouseButton1Click:Connect(function()
+core.ToolsBtn.MouseButton1Click:connect(function()
 	core.Frame4.Visible = false
 	core.Frame7.Visible = true
 	core.Frame3Visible = false
@@ -762,99 +762,99 @@ core.ToolsBtn.MouseButton1Click:Connect(function()
 	core.Frame2.Visible = false
 end)
 
-Frame4.RX6.MouseButton1Click:Connect(function()
+Frame4.RX6.MouseButton1Click:connect(function()
 	loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
 end)
 
-Frame4.RH1.MouseButton1Click:Connect(function()
+Frame4.RH1.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/rohack.lua"))()
 end)
 
-Frame4.HB.MouseButton1Click:Connect(function()
+Frame4.HB.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Hover%20Bike.txt"))()
 end)
 
-Frame4.VG.MouseButton1Click:Connect(function()
+Frame4.VG.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/VaporGun.txt"))()
 end)
 
-Frame4.TP.MouseButton1Click:Connect(function()
+Frame4.TP.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Cup%20of%20Tea.txt"))()
 end)
 
-Frame4.TK.MouseButton1Click:Connect(function()
+Frame4.TK.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/telekenisis.lua"))() -- by louknt
 end)
 
-Frame4.ORE.MouseButton1Click:Connect(function()
+Frame4.ORE.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Ore%20Rain.lua"))()
 end)
 
-Frame4.BEAN.MouseButton1Click:Connect(function()
+Frame4.BEAN.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/mrbean.lua"))()
 end)
 
-Frame4.DOGE.MouseButton1Click:Connect(function()
+Frame4.DOGE.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Doge%20Army.lua"))()
 end)
 
-Frame6.KK.MouseButton1Click:Connect(function()
+Frame6.KK.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Krusty%20Krab.txt"))()
 end)
 
-Frame6.CA.MouseButton1Click:Connect(function()
+Frame6.CA.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Clockwork%20Arena.txt"))()
 end)
 
-Frame6.CF.MouseButton1Click:Connect(function()
+Frame6.CF.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/CottonFields.txt"))()
 end)
 
-Frame6.CITY.MouseButton1Click:Connect(function()
+Frame6.CITY.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/City%20Generator.lua"))()
 end)
 
-Frame6.FDTS.MouseButton1Click:Connect(function()
+Frame6.FDTS.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Fall-Down-Stairs.lua"))()
 end)
 
-Frame7.GUN.MouseButton1Click:Connect(function()
+Frame7.GUN.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Glock.txt"))()
 end)
 
-Frame7.WTFB.MouseButton1Click:Connect(function()
+Frame7.WTFB.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/wtf%20bomb.lua"))()
 end)
 
-Frame7.YIN.MouseButton1Click:Connect(function()
+Frame7.YIN.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Ying%20%26%20Yang%20Swords.txt"))()
 end)
 
-Frame7.VAPE.MouseButton1Click:Connect(function()
+Frame7.VAPE.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Vape.txt"))()
 end)
 
-Frame7.SG.MouseButton1Click:Connect(function()
+Frame7.SG.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Suicide%20Gun.txt"))()
 end)
 
-Frame5.SSR.MouseButton1Click:Connect(function()
+Frame5.SSR.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Super%20Sayan%20Red.txt"))()
 end)
 
-Frame5.DP.MouseButton1Click:Connect(function()
+Frame5.DP.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Dog%20Pooping.txt"))()
 end)
 
-Frame5.NP.MouseButton1Click:Connect(function()
+Frame5.NP.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/DahNoob%20Infamous%20Powers.txt"))()
 end)
 
-Frame5.WINGS.MouseButton1Click:Connect(function()
+Frame5.WINGS.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Pheonix%20Wings.txt"))()
 end)
 
-Frame5.PT.MouseButton1Click:Connect(function()
+Frame5.PT.MouseButton1Click:connect(function()
 	loadstring(game:HttpGet("https://github.com/LuaGunsX/iyfdplus-hub/raw/refs/heads/main/iyfd/iyfd/Phantom%20Titan.txt"))()
 end)
 end)()
